@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_caracteristicas_caracteristicas",
+  "info": {
+    "name": "Caracteristicas",
+    "icon": "plus-square"
+  },
+  "options": {},
+  "attributes": {
+    "Nombre_Caracteristica": {
+      "type": "string"
+    },
+    "Valor": {
+      "type": "string"
+    }
+  }
+}

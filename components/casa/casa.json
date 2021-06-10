@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_casa_casas",
+  "info": {
+    "name": "Casa",
+    "icon": "school"
+  },
+  "options": {},
+  "attributes": {
+    "cuartos": {
+      "type": "integer"
+    },
+    "bannos": {
+      "type": "integer"
+    },
+    "lote": {
+      "type": "biginteger"
+    },
+    "construccion": {
+      "type": "biginteger"
+    },
+    "cocheras": {
+      "type": "integer"
+    }
+  }
+}

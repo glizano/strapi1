@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_lote_lotes",
+  "info": {
+    "name": "Lote",
+    "icon": "spa"
+  },
+  "options": {},
+  "attributes": {
+    "terreno": {
+      "type": "integer"
+    }
+  }
+}
