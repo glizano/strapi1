@@ -1,0 +1,28 @@
+{
+  "name": "strapi-plugin-importar-propiedad",
+  "version": "0.0.0",
+  "description": "This plugin is meant to import properties.",
+  "strapi": {
+    "name": "importar-propiedad",
+    "icon": "file-import",
+    "description": "Description of importar-propiedad plugin."
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Gabriel Lizano A",
+    "email": "g.lizano@hotmail.es",
+    "url": ""
+  },
+  "maintainers": [
+    {
+      "name": "Gabriel Lizano A",
+      "email": "g.lizano@hotmail.es",
+      "url": ""
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
