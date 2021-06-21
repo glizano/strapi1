@@ -69,7 +69,8 @@
       "enum": [
         "Casa",
         "Lote",
-        "Apartamento"
+        "Apartamento",
+        "Comercial"
       ]
     },
     "estado": {
@@ -83,9 +84,10 @@
         "Disponible",
         "Vendido",
         "No_Disponible"
-      ]
+      ],
+      "default": "Disponible"
     },
-    "VentaAlquiler": {
+    "CompraAlquiler": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -93,7 +95,7 @@
       },
       "type": "enumeration",
       "enum": [
-        "Venta",
+        "Compra",
         "Alquiler"
       ]
     },
@@ -159,6 +161,48 @@
           "localized": true
         }
       }
+    },
+    "provincia": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "ciudad": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "propietario": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "private": true
+    },
+    "contacto": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "private": true
+    },
+    "importId": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "biginteger"
     }
   }
 }
